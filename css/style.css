@@ -1,45 +1,60 @@
 /* ini css */
 
+/* body navigasi */
+
 nav {
-  border: 1px solid;
   display: flex;
   justify-content: space-between;
   padding: 12px;
   align-items: center;
 }
 
+/* konten utama */
+/* konten kanan */
 .logo-icon {
-  border: 1px solid;
   background-image: url(https://picsum.photos/200);
   height: 25px;
   width: 50px;
   background-size: cover;
-  margin-left: 24px;
+  margin-right: 24px;
 }
-
+/* section awal */
 .nav-container {
+  border: none;
+  border-radius: 12px;
   display: flex;
 }
 
+/* bagian section awal */
 .nav-item {
   border: 1px solid;
   padding: 8px;
+  cursor: pointer;
 }
 
+/* article utama */
 .main-title {
   text-align: center;
 }
-
+/* section kedua main */
 .main-content {
   display: flex;
 }
 
+/* koten kiri */
 .main-content-item {
   border: 1px solid;
   width: 100%;
-  height: 250px;
+  height: 300px;
   flex-direction: column;
   text-align: center;
+}
+
+.login {
+  margin-left: 8px;
+}
+.main-header {
+  margin-right: 75%;
 }
 
 .main-content-banner {
@@ -63,20 +78,29 @@ nav {
   justify-content: center;
 }
 
+/* kotak input  */
 input {
   width: 75%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 2px solid aqua;
+  border: 2px solid black;
   border-radius: 4px;
   box-sizing: border-box;
   font-family: monospace;
 }
 
+/* tombol submit */
 button {
-  width: 75%;
-  height: 32px;
-  background-color: rgb(143, 232, 180);
+  padding: 10px;
+  width: 50%;
+  background-color: black;
   border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.name {
+  boder-radius: 8px;
 }
