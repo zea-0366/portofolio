@@ -8,83 +8,102 @@
   <link rel="stylesheet" href="css\style.css">
 </head>
 
+
 <body>
-     <nav>
+  <nav>
+    <header>
+      <div class="logo-icon"></div>
+    </header>
+
+    <section class="nav-container" id="navigation">
+      <a class="nav-item" id="nav-home" href="#home">Home</a>
+      <a class="nav-item" id="nav-packages" href="#packages-section">Our Packages</a>
+      <a class="nav-item" id="nav-call" href="closing-id">Call Us</a>
+    </section>
+  </nav>
+
+  <!-- konten utama -->
+  <main>
+    <article class="main-title">
       <header>
-        <div class="logo-icon"></div>
+        <h1>Your Trusted Trevel Agent</h1>
       </header>
 
-      <section class="nav-container">
-        <a class="nav-item">Home</a>
-        <a class="nav-item">Our Package</a>
-        <a class="nav-item">Call Us</a>
-      </section>
-     </nav>
+      <p>Your happiness is our happiness </p>
+    </article>
+    <!-- konten kiri -->
+    <section class="main-content">
+      <article class="main-content-item">
+        <div class="main-banner-container">
+          <div class="main-content-banner banner-1">
+          </div>
+          <div class="main-content-banner banner-2">
+          </div>
 
-     <!-- konten utama -->
-     <main>
-        <article class="main-title">
-             <header>
-                  <h1>Your Trusted Trevel Agent</h1>
-             </header>
+        </div>
+        <br><br>
 
-             <p>Your happiness is our happiness </p>
-        </article>
-<!-- konten kanan -->
-        <section class="main-content">
-           <article class="main-content-item">
-                <div class="main-content-banner"></div>
+        <div class="main-item">
+          <div class="item-icon"></div>
 
-                <div class="main-item">
-                   <div class="item-icon"></div>
-                   
-                   <div>
-                       <h3>Lorem Ipsum Dolor</h3>
-                       <p>Lorem Ipsum Dolor</p>
-                   </div>
-                </div>
-           </article>
-              
-             
+          <div>
+            <h3>Lorem Ipsum Dolor</h3>
+            <p>Lorem Ipsum Dolor</p>
+          </div>
+        </div>
+      </article>
 
-        <!-- konten kiri -->
-           <form class="main-content-item">
-            <header class="main-header">
-               <h1 class="login">Login</h1>
-                 <p></p>
-            </header>
-              <form id="myForm">
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name" required>
-              <br>
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required>
-              <br>
-              <button type="button" value="Onclick">Submit</button>
-             </form>
-            
-             
-               
-              
-           </form>
-        </section>
-          <!-- konten kanan bawah -->
-        <section>
-          <header>
-               <h3>Benefits of Choosing Us</h3>
-                 <p>1. Your first feature writen in the form of a benefit stagement</p>
-                 <p>2. Your second feature writen in the form of a benefit stagement</p>
-                 <p>3. Your third feature writen in the form of a benefit</p>
-          </header>
-     </section>
-     </main>
-     
-     
-        
-    <script src="js/script.js">
 
-    </script>
-    
-    
+
+      <!-- konten kanan -->
+      <form class="main-content-item">
+        <header class="main-header">
+          <h1 class="login">Login</h1>
+          <p></p>
+        </header>
+        <form action="/action_page.php">
+          <div class="form-group">
+            <label for="email">Email :</label>
+            <input type="email" class="form-control" placeholder="Enter email" id="email">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password :</label>
+            <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+
+
+
+      </form>
+    </section>
+    <!-- konten kanan bawah -->
+    <section>
+
+    </section>
+  </main>
+
+  <div>
+    <div class="icon"><i class="fa fa-envelope"></i>
+      <h4>Email</h4>
+      <p><a href="mailto:farizazea9c@gmail.com"></a>faizazea9c@gmail.com</p>
+    </div>
+    <a href="https://wa.link/z3ohgb" class="href">WhatsApp</a>
+    <a href="https://www.instagram.com/fariza_zea/" class="href">Instagram</a>
+    <a href="https://youtube.com/@farizazea_34?si=4FVUxYU_mk1HeJH8" class="href">Youtube</a>
+
+    <a href="farizazea9c@gmail.com" id="email" class="href">email</a>
+  </div>
+
+  <script src="js\script.js">
+
+  </script>
+
+
+
+
 </body>
+
 </html>
