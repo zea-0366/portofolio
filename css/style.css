@@ -157,7 +157,7 @@ img {
 .nav__logo span {
   color: var(--white-color);
   font-weight: var(--font-semi-bold);
-  transition: coor .4s;
+  transition: color .4s;
 }
 
 .nav__logo i {
@@ -172,6 +172,8 @@ img {
   cursor: pointer;
   transition: color .4s;
 }
+
+/* UNTUK SLIDE MENU */
 /* Navigation for mobile devices */
 @media screen and (max-width: 1150px) {
   .nav__menu {
@@ -187,17 +189,20 @@ img {
   }
 }
 
+/* UNTUK JARAK SHOW MENU */
 .nav__list {
   display: flex;
   flex-direction: column;
   row-gap: 4rem;
 }
 
+
 .nav__link {
   color: var(--text-color-light);
   font-weight: var(--font-semi-bold);
-  transition: color .4rem;
+  transition: color .4s;
 }
+
 
 .nav__link:hover {
   color: var(--first-color);
@@ -208,6 +213,8 @@ img {
   top: 1rem;
   right: 1.5rem;
 }
+
+
 /* Show menu */
 .show-menu {
   right: 0;
@@ -220,7 +227,45 @@ img {
 
 
 /*=============== HOME ===============*/
+.home {
+  position: relative;
+  background-color: var(--black-color);
+}
 
+.home__container {
+  position: relative;
+  row-gap: 3rem;
+  padding-block: 2.5rem 6rem;
+}
+
+.home__content {
+  row-gap: 2.5rem;
+}
+
+.home__data {
+  text-align: center;
+}
+
+.home__title {
+  color: var(--white-color);
+  font-size: var(--big-font-size);
+  font-weight: var(--font-bold);
+  margin-bottom: 1rem;
+  
+}
+
+.home__description {
+  margin-bottom: 2.5rem;
+  color: var(--text-color-light);
+}
+/* 17.33 tidak 3 baris untuk descripsi*/
+
+.home__buttons {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 1rem;
+} 
 
 /*=============== BUTTON ===============*/
 /* 10.54 */
@@ -234,9 +279,18 @@ img {
 }
 
 .button:hover {
-  box-shadow:  0 8px 32px hsla (18, 95%, 55%, .3);
-  color: var(--black-color);
+  box-shadow:  0 8px 32px hsla(18, 95%, 55%, .3);
+  color: var(--white-color);
 }
+
+/* 17.21 */
+.button__link {
+  display: flex;
+  align-items: center;
+  column-gap: .25rem;
+  color: var(--first-color);
+}
+
 /*=============== ABOUT ===============*/
 
 

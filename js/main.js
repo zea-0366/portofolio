@@ -17,6 +17,7 @@ if(navClose){
     })
 }
 
+// SLIDE MENU //
 /*=============== REMOVE MENU MOBILE ===============*/
 const navLink = document.querySelectorAll('.nav__link')
 
@@ -27,6 +28,7 @@ const linkAction = () =>{
 }
  navLink.forEach(n => n.addEventListener('click', linkAction))
 // 13.00
+
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 
 
