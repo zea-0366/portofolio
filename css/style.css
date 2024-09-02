@@ -267,6 +267,25 @@ img {
  gap: 1rem;
 } 
 
+.home__info {
+  display: flex;
+  justify-content: center;
+  column-gap: 4.5rem;
+}
+
+.home__info-title {
+  color: var(--second-color);
+  font-size: var(--big-font-size);
+  font-weight: var(--font-bold);
+  margin-bottom: .5rem;
+}
+
+/* 19.39 */
+.home__info-description {
+  font-size: var(--small-font-size);
+  color: var(--white-color);
+}
+
 /*=============== BUTTON ===============*/
 /* 10.54 */
 .button {
@@ -290,6 +309,23 @@ img {
   column-gap: .25rem;
   color: var(--first-color);
 }
+
+
+.button__links span {
+  font-weight: var(--font-semi-bold);
+}
+
+/* 18.45 */
+.button__link i {
+  font-size: 1.5rem;
+  transition: transform .4s;
+}
+
+/* 18.50 */
+.button__link:hover i {
+  transform: translateX(.25rem);
+}
+
 
 /*=============== ABOUT ===============*/
 
